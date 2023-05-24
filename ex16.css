@@ -1,0 +1,55 @@
+body{
+    background-color: antiquewhite;
+}
+ul li{
+    display: inline-block;
+    padding: 10px;
+    transition-duration: .10s;
+}
+ul li.hover{
+    display: inline-block;
+    padding: 10px;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    padding: 15px 10px;
+    transition-duration: .10s;
+}
+li a:hover{
+    text-decoration: none;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border: 1px solid black;
+    font-size: 25px;
+    padding: 15px 10px;
+    transition-delay: .10s;
+    transition-duration: .25s;
+}
+.container1{
+    width: 100%;
+    height: 100%;
+    padding: 35px;
+    background-color: bisque;
+}
+.container2{
+    width: 100%;
+    height: auto;
+    padding: 35px;
+    background-color: rgb(197, 161, 116);
+}
+.me2 img{
+    height: 290px;
+    width: 300px;
+    position: sticky;
+    margin-left: 5%;
+    margin-bottom: 30%;
+}
+.parafs{
+    color: rgb(19, 14, 14);
+    font-size: 25px;
+    margin-left: 30%;
+    margin-top: 04%;
+    position: absolute;
+}
